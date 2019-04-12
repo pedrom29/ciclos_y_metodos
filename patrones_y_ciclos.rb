@@ -46,10 +46,4 @@ end
             end
           end
                puts "\n"
-
-
-
-
-
-
 end

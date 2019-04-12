@@ -1,21 +1,23 @@
 n = ARGV[0].to_i
 
-def letra_n (n)
+def letra_i(n)
 
   n.times do
     print "*"
   end
   print "\n"
-
-    n.times do
-      print " *"
-
-      n.times do
+  (n-2).times do
+    ((n/2)-1).times do
       print " "
-      end
-     print "\n"
     end
-
+    1.times do
+      print "*"
+    end
+    ((n/2)-1).times do
+      print " "
+    end
+    print "\n"
+  end
   n.times do
     print "*"
   end
@@ -23,6 +25,4 @@ def letra_n (n)
 end
 
 
-
-
-letra_n(n)
+  letra_i(n)
